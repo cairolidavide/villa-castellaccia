@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Pacifico";
+    src: local('Pacifico'), url(../../Fonts/Pacifico-Regular.ttf);
+}
+
+.customer-new-visit-form {
+    border: 2px dashed rgb(132, 142, 125);
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.new-visit-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.visit-label-text {
+    color:rgb(132, 142, 125);
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.input-visit-form {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 1%;
+}
+
+.visit-form-button {
+    background-color: rgb(168, 181, 158);
+    border: 1px solid rgb(168, 181, 158);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    margin: 2%;
+}
+
+.visit-form-button:hover {
+    background-color: rgb(132, 142, 125);
+    border: 1px solid rgb(132, 142, 125);
+}
+
+
+.loading-visit-spinner {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-hours-visit {
+    height: 30px;
+    width: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(168, 181, 158);
+    border: 1px solid rgb(168, 181, 158);
+    border-radius: 20px;
+    color: white;
+}
+
+.free-hours-visit:hover {
+    background-color: rgb(132, 142, 125);
+    border: 1px solid rgb(132, 142, 125);
+    font-weight: bold;
+}
+
+.recap-container {
+    height: 260px;
+    width: 50%;
+    background-color:  white;
+    border: 2px dotted rgb(168, 181, 158);
+    border-radius: 10px;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recap-title {
+    color: black;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.recap-content {
+    color: rgb(132, 142, 125);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.visit-result-text {
+    font-family: Pacifico;
+    font-size: 30px;
+    color: rgb(132, 142, 125);
+    
+}
+
+.customer-visit-no-display {
+    display: none;
+}

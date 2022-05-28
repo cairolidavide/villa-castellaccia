@@ -1,0 +1,51 @@
+.users-dock-section-title {
+    color: rgb(252, 249, 235);
+    background-color: rgb(168, 181, 158);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 1%;
+    margin: 3%;
+}
+
+.user-selector-container {
+    width: 100%;
+}
+
+.user-selector {
+    margin: 3% auto;
+    background-color: rgb(168, 181, 158);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.user-selector-notactive {
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.user-selector-active {
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    background-color: rgb(132, 142, 125);
+    border: 1px solid rgb(132, 142, 125);
+    border-radius: 10px;
+    height: 40px;
+}
+
+.user-no-display {
+    display: none;
+}

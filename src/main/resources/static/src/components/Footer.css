@@ -1,0 +1,32 @@
+#decoration-leaf {
+    color: rgb(132, 142, 125);
+    font-size: 50px;
+    margin: 2%;
+}
+
+.footer {
+    height: 200px;
+    background-color: rgb(168, 181, 158);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer-follow-text {
+    color: rgb(252, 249, 235);
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+#social-logo {
+    font-size: 30px;
+    color: rgb(252, 249, 235);
+    text-align: center;
+}
+
+#instagram {
+    margin: 2%;
+}
+
+#facebook {
+    margin: 2%;
+}

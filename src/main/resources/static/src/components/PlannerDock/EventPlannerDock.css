@@ -1,0 +1,128 @@
+.planner-event-selector {
+    margin: 3% auto;
+    background-color: rgb(168, 181, 158);
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.planner-event-selector-notactive {
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.planner-event-selector-active {
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    background-color: rgb(132, 142, 125);
+    border: 1px solid rgb(132, 142, 125);
+    border-radius: 10px;
+    height: 40px;
+}
+
+.add-event-form-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px dashed rgb(132, 142, 125);
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.create-event-title {
+    font-weight: bold;
+    color: rgb(132, 142, 125);
+    font-size: 25px;
+}
+
+.create-event-form-label {
+    font-size: 20px;
+    color: rgb(132, 142, 125);
+}
+
+.create-event-form-input {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 0;
+    height: 35px;
+    width: 100%;
+}
+
+.create-event-form-input-small {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 0;
+    height: 35px;
+    width: 50%;
+}
+
+.create-event-form-input-xsmall {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 0;
+    height: 35px;
+    width: 30%;
+}
+
+.create-event-button {
+    border-radius: 5px;
+    border: 1px solid rgb(168, 181, 158);
+    background-color: rgb(168, 181, 158);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+.create-event-button:hover {
+    border: 1px solid rgb(132, 142, 125);
+    background-color: rgb(132, 142, 125);
+}
+
+.price-event-button {
+    border-radius: 5px;
+    border: 1px solid rgb(168, 181, 158);
+    background-color: rgb(168, 181, 158);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    margin-left: 2%;
+}
+
+.price-event-button:hover {
+    border: 1px solid rgb(132, 142, 125);
+    background-color: rgb(132, 142, 125);
+}
+
+.add-event-description {
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-top: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    height: 400px;
+    width: 100%;
+}
+
+.events-no-display {
+    display: none;
+}

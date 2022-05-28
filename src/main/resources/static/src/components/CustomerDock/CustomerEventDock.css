@@ -1,0 +1,15 @@
+.customer-event-list-title {
+    margin: 2%;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(132, 142, 125);
+}
+
+.customer-event-list {
+    margin: 2%;
+    padding: 2%;
+}
+
+.customer-event-no-display {
+    display: none;
+}

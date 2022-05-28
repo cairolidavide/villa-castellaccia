@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Pacifico";
+    src: local('Pacifico'), url(../Fonts/Pacifico-Regular.ttf);
+}
+
+.log-in-form {
+    margin: 5% auto;
+    padding: 2%;
+    border: 2px dashed rgb(132, 142, 125);
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+}
+
+.log-in-title {
+    margin-bottom: 2%;
+    background-color: rgb(168, 181, 158);
+    padding-top: 5%;
+    font-family: Pacifico;
+    color: rgb(252, 249, 235);
+    font-size: 50px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-top: 2px dashed rgb(252, 249, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.log-in-input {
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    height: 35px;
+    width: 200px;
+}
+
+.log-in-label {
+    color: rgb(132, 142, 125);
+    font-weight: bold;
+}
+
+.log-in-input-email {
+    width: 240px;
+}
+
+#log-in-email-section {
+    margin-bottom: 1%;
+}
+
+#log-in-password-section {
+    margin-bottom: 10%;
+}
+
+.log-in-button {
+    background-color: rgb(168, 181, 158);
+    color: white;
+}
+
+.sing-in-div {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.log-in-invalid-email-message-hidden {
+    height: 30px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.log-in-invalid-email-message {
+    height: 30px;
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.log-in-show-password {
+    margin: 10px;
+    color: rgb(98, 98, 98);
+}

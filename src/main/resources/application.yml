@@ -1,0 +1,16 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost/villacastellaccia
+    username: postgres
+    password: 1234
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+app:
+  jwt:
+    secret: qwertyuiop1234567890asdfghjkl

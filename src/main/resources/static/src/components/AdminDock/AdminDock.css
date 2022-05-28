@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Pacifico";
+    src: local('Pacifico'), url(../../Fonts/Pacifico-Regular.ttf);
+}
+
+.admin-dock-exit-wrapper {
+    text-align:right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.admin-dock-navigation-section {
+    background-color: rgb(168, 181, 158);
+    border: 2px solid rgb(168, 181, 158);
+    border-top: 2px solid rgb(252, 249, 235);
+    border-style: dashed;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.admin-dock-settings {
+    color: rgb(252, 249, 235);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.admin-dock-log-out {
+    color: rgb(252, 249, 235);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.admin-dock-log-out:hover {
+    color: rgb(119, 129, 113);
+}
+
+.admin-dock-page-name {
+    font-family: Pacifico;
+    color: rgb(252, 249, 235);
+    font-size: 50px;
+    padding-top: 2%;
+}
+
+.admin-dock-link-wrapper {
+    height: 40px;
+}
+
+.admin-dock-link {
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1%;
+}
+
+.admin-dock-link:hover {
+    color: rgb(119, 129, 113);
+}
+
+.admin-dock-link-active {
+    color: rgb(119, 129, 113);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1%;
+}
+
+#admin-dock-container {
+    padding-top: 2%;
+}
+
+.admin-dock-section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 142, 125);
+    margin-top:3%
+}
+
+.add-planner-label {
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    height: auto;
+}
+
+.add-planner-row {
+    width: 100%;
+}
+
+.add-planner-close-form {
+    font-weight: bold;
+    text-align: right;
+    color:rgb(168, 181, 158);
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.add-planner-close-form:hover {
+    color:rgb(132, 142, 125);
+    cursor: pointer;
+}
+
+.show-add-planner-form-button {
+    border: 1px solid rgb(168, 181, 158);
+    background-color: rgb(168, 181, 158);
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    margin: 2%;
+}
+
+.show-add-planner-form-button:hover {
+    border: 1px solid rgb(132, 142, 125);
+    background-color: rgb(132, 142, 125);
+}
+
+#add-planner-container {
+    border: 2px solid rgb(132, 142, 125);
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 510px;
+    margin: 0 auto;
+}
+
+.add-planner-form-cotainer input, select {
+    margin: 2%;
+}
+
+.add-planner-form-cotainer label {
+    margin-left: 20px;
+}
+
+.add-planner-form-cotainer input, select {
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 35px;
+}
+
+.add-planner-form-cotainer select, input {
+    width: 70%;
+}
+
+.create-planner-button {
+    margin-top: 5%;
+    background-color: rgb(168, 181, 158);
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.create-planner-button:hover {
+    background-color: rgb(132, 142, 125);
+    color: rgb(252, 249, 235);
+}
+
+.planner-list-title {
+    color: rgb(252, 249, 235);
+    background-color: rgb(168, 181, 158);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 1%;
+    margin: 3%;
+}
+
+.no-logged-admin-user {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-logged-admin-user p {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(132, 142, 125);
+}
+
+.admin-dock-no-display {
+    display: none;
+}
+
+
+

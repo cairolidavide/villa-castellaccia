@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "CoursiveTitle";
+    src: local('CoursiveTitle'), url(../Fonts/GreatVibes-Regular.ttf);
+}
+
+
+.title-container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: CoursiveTitle;
+}
+
+.title {
+    font-size: 250px;
+}
+
+#title-icon {
+    font-size: 80px;
+    margin-left: 1%;
+    transform: rotate(-10grad);
+    transform: translateY(-10px);
+}
+
+.title {
+    font-size: 100px;
+}
+
+.nav-bar-container {
+    width: 100%;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(168, 181, 158);
+}
+
+.links-wrapper {
+    height: 70px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.login-wrapper {
+    height: 70px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 1%;
+}
+
+.links {
+    margin: 2%;
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links:hover {
+    color: rgb(132, 142, 125);
+}
+
+.log-in {
+    margin: 2%;
+    justify-content: right;
+    color: rgb(252, 249, 235);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.log-in:hover {
+    color: rgb(132, 142, 125);
+}
+
+.header-no-display {
+    display: none;
+}

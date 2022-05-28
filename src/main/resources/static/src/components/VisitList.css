@@ -1,0 +1,49 @@
+.visit-list-container {
+    margin: 0 auto;
+}
+
+.visit-container {
+    border: 2px solid rgb(132, 142, 125);
+    background-color: white;
+    border-radius: 10px;
+    border-style:  dashed;
+    width: 350px;
+    height: 210px;
+    margin: 3% auto;
+}
+
+.visit-date {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(252, 249, 235);
+    background-color: rgb(168, 181, 158);
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.visit-section-text-container {
+    margin-top: 6%;
+    text-align: left;
+}
+
+.visit-section-text {
+    font-size: 18px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.visit-section-title-name {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(132, 142, 125);
+}
+
+.visit-no-display {
+    display: none;
+}

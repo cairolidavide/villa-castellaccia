@@ -1,0 +1,73 @@
+.signin-container {
+    width: 60%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.signin-title {
+    margin-bottom: 2%;
+    background-color: rgb(168, 181, 158);
+    padding-top: 5%;
+    font-family: Pacifico;
+    color: rgb(252, 249, 235);
+    font-size: 50px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-top: 2px dashed rgb(252, 249, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.signin-content-container {
+    margin-top: 4%;
+}
+
+.signin-form {
+   width: 80%;
+   margin: 10% auto;
+   border: 2px dashed rgb(132, 142, 125);
+   background-color: white;
+   border-radius: 10px;
+}
+
+.signin-form-title {
+    margin-top: 3%;
+    color: rgb(132, 142, 125);
+    font-weight: bold;
+    
+}
+
+.signin-label {
+    text-align: right;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.signin-input {
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.signin-input input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.signin-button {
+    height: 40px;
+    margin: 2%;
+    border: 1px solid rgb(168, 181, 158);
+    border-radius: 10px;
+    background-color: rgb(168, 181, 158);
+    color: rgb(252, 249, 235);
+    font-weight: bold;
+}
+
+.signin-button:hover {
+    border: 1px solid rgb(132, 142, 125);
+    background-color: rgb(132, 142, 125);
+    color: rgb(252, 249, 235);
+}

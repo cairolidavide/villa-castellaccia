@@ -1,0 +1,103 @@
+.modify-event-form-container {
+    width: 70%;
+    margin: 5% auto 1%;
+    border: 2px dashed rgb(132, 142, 125);
+    border-radius: 10px;
+    background-color: white;
+    padding: 2%;
+}
+
+.close-modify-event-form-container {
+    text-align: right;
+}
+
+.close-modify-event-form {
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    color: rgb(168, 181, 158);
+}
+
+.close-modify-event-form:hover {
+    color: rgb(132, 142, 125);
+}
+
+.modify-event-form-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(132, 142, 125);
+}
+
+.modify-event-form-label {
+    font-size: 20px;
+    color: rgb(132, 142, 125);
+}
+
+.modify-event-form-input {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 0;
+    height: 35px;
+    width: 100%;
+}
+
+.modify-event-form-input-50 {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    margin: 0;
+    height: 35px;
+    width: 50%;
+}
+
+.modify-event-form-input-price {
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-left: 0.7%;
+    padding-right: 1%;
+    margin: 0;
+    height: 35px;
+    width: 93%;
+}
+
+.modify-event-form-span {
+    font-size: 20px;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+    height: 35px;
+    width: 100%;
+}
+
+.modify-event-description {
+    border-radius: 5px;
+    border: 1px solid rgb(98, 98, 98);
+    padding-top: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    height: 400px;
+    width: 100%;
+}
+
+.modify-event-button {
+    border-radius: 5px;
+    border: 1px solid rgb(168, 181, 158);
+    background-color: rgb(168, 181, 158);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+.modify-event-button:hover {
+    border: 1px solid rgb(132, 142, 125);
+    background-color: rgb(132, 142, 125);
+}
+
+.events-no-display {
+    display: none;
+}

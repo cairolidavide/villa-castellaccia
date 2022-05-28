@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Pacifico";
+    src: local('Pacifico'), url(.././Fonts/Pacifico-Regular.ttf);
+}
+
+.home-center-section-container {
+    width: 100%;
+    margin: 2% auto;
+}
+
+.section-row {
+    height: auto;
+}
+
+.section-title {
+    height: fit-content;
+    border-top: 2px dashed rgb(252, 249, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    color: rgb(252, 249, 235);
+    background-color: rgb(168, 181, 158);
+    font-size: 50px;
+    font-family: Pacifico;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;
+    z-index: 1;
+}
+
+.home-center-section-container {
+    background-color: rgb(168, 181, 158);
+    padding: 3% 3%;
+    border-radius: 10px;
+}
+
+.home-center-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.message-text {
+    font-size: 50px;
+    font-family: Pacifico;
+    margin-bottom: 5%;
+    color: rgb(132, 142, 125);
+}
+
+.page-text {
+    margin-bottom: 5%;
+    color: gray;
+}
+
+.image-section-text {
+   margin-top: 20%;
+   color: rgb(252, 249, 235);
+}
+
+.image-section-text h2 {
+    font-family: Pacifico;
+    color: rgb(252, 249, 235);
+}
+
+.video {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    transform: translateY(-100px);
+}
+
+.divider {
+    color:rgb(132, 142, 125);
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.events-button {
+    background-color: rgb(168, 181, 158);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(252, 249, 235);
+    border-radius: 10px;
+}
+
+.events-button:hover {
+    background-color: rgb(132, 142, 125);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(132, 142, 125);
+}
+
+.home-login-text {
+    color:rgb(132, 142, 125);
+    font-size: 50px;
+    font-family: Pacifico;
+    margin-top: 5%;
+}
+
+.home-login-description {
+    margin-bottom: 3%;
+    color: gray;
+}
+
+.home-login-button {
+    background-color: rgb(168, 181, 158);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(252, 249, 235);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 100px;
+    padding: 1%;
+}
+
+.home-login-button:hover {
+    background-color: rgb(132, 142, 125);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(132, 142, 125);
+}

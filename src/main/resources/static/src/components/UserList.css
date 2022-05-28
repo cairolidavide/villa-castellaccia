@@ -1,0 +1,43 @@
+.user-container {
+    border: 2px solid rgb(132, 142, 125);
+    border-style:dashed;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.user-data-wrapper {
+    margin-left: 10px;
+    color:rgb(132, 142, 125);
+}
+
+.user-name {
+    margin-top:10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-email {
+    font-size: 15px;
+}
+
+.user-phone-number {
+    font-size: 12px;
+}
+
+.user-trash-wrapper {
+    display:flex;
+    height: 100%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.user-delete-button {
+    color: red;
+    background-color: white;
+    border: none
+}

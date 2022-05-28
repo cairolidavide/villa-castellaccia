@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Pacifico";
+    src: local('Pacifico'), url(.././Fonts/Pacifico-Regular.ttf);
+}
+
+.section-title {
+    height: fit-content;
+    border-top: 2px dashed rgb(252, 249, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    color: rgb(252, 249, 235);
+    background-color: rgb(168, 181, 158);
+    font-size: 50px;
+    font-family: Pacifico;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;
+    z-index: 1;
+}
+
+.event-header-img {
+    transform: translateY(-100px);
+}
+
+.event-header-img img {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.events-content-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.event-message-text {
+    font-size: 50px;
+    font-family: Pacifico;
+    margin-bottom: 5%;
+    color: rgb(132, 142, 125);
+}
+
+.events-content-page-text {
+    color: gray;
+}
+
+.event-login-button {
+    background-color: rgb(168, 181, 158);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(252, 249, 235);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.event-login-button:hover {
+    background-color: rgb(132, 142, 125);
+    color: rgb(252, 249, 235);
+    border: 1px solid rgb(132, 142, 125);
+}
+
+.event-login-button-container {
+    margin: 5%;
+}
+
+.event-photo-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(168, 181, 158);
+    padding: 5% 3%;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+.rounded-img {
+    border-radius: 10px;
+    height: 660px;
+}
+
+.event-carousel-text {
+    font-size: 50px;
+    font-family: Pacifico;
+    color: rgb(252, 249, 235);
+    border: 2px dashed rgb(252, 249, 235);
+    border-radius: 10px;
+    padding: 2%;
+    width: 50%;
+    margin: 0% auto 5%;
+}
