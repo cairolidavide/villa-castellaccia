@@ -1,5 +1,5 @@
 # VILLA CASTELLACCIA
-Booking management portal for visits and events of a location for events and weddings in Tuscany.
+Rest application for booking management portal for visits and events of a location for events and weddings in Tuscany.
 
 ### FRONTEND:
 - React.js;
