@@ -46,5 +46,5 @@ CREATE TABLE IF NOT EXISTS events (
 );
 
 
-INSERT INTO users VALUES ("Admin", "Admin", "123456", "admin@admin.com", "$2a$10$Uved/NnB/g2JSOtH1gGswuXsTwIL1IyuRe0J0KeocUJ0GXdmPSLau");
+INSERT INTO users VALUES (1, "Admin", "Admin", "123456", "admin@admin.com", "$2a$10$Uved/NnB/g2JSOtH1gGswuXsTwIL1IyuRe0J0KeocUJ0GXdmPSLau");
 -- Admin password 123456;
