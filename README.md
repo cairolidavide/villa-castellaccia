@@ -17,4 +17,6 @@ The site consists of two macro areas:
 1) static part for the presentation of the location;
 2) area with login for interaction between location staff and customers.
 
+## 
 
+***... IN PROGRESS***
